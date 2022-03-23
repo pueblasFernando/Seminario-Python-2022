@@ -1,5 +1,5 @@
 import random
-numero_aleatorio = random.randint(0,100)
+numero_aleatorio = random.randint(0,101)
 gane = False
 print("Tenés 5 intentos para adivinar un entre 0 y 100")
 intento = 1
@@ -12,4 +12,4 @@ while intento < 6 and not gane:
         print('Mmmm ... No.. ese número no es... Seguí intentando.')
         intento += 1
 if not gane:
-    print('\n Perdiste :(\n El número era: {}'.format(numero_aleatorio))
+    print(f'\n Perdiste :(\n El número era: {numero_aleatorio}')
